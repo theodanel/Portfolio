@@ -33,11 +33,13 @@
                 <hr class="w-14 h-1 bg-red-500 flex  m-auto mb-12 mt-4">
  
                 <div class="mt-5 flex items-center justify-center">
-                <a  href="{{ asset('pdf/CV.pdf') }}" download ="DANEL Théo"> <p class="flex rounded-2xl px-5 py-3 bg-[#4961db] bg-gradient-to-r from-[#6a98ef] to-[#4961db] hover:bg-[#3244a2] text-white hover:to-transparent transition-colors duration-300x ">
-                    <i class="fa-solid fa-arrow-down mx-2"></i> 
-                        Téléchargez mon CV
-                   <i class="fa-solid fa-arrow-down mx-2"></i> 
-                </p></a>
+                <a href="{{ asset('pdf/CV.pdf') }}" download="DANEL Théo">
+                    <p class="flex rounded-2xl px-5 py-3 bg-[#4961db] bg-gradient-to-r from-[#6a98ef] to-[#4961db] hover:bg-[#3244a2] text-white hover:to-transparent transition-colors duration-300x arrow-container">
+                        <i class="fas fa-arrow-right mx-2 mt-1"></i> 
+                            Téléchargez mon CV
+                        <i class="fas fa-arrow-left mx-2 mt-1"></i> 
+                    </p>
+                </a>
                  
                 </div>
             </div>

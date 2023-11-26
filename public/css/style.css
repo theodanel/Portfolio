@@ -124,6 +124,20 @@ body {
 }
 
 
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Ajoutez cette classe pour appliquer l'animation */
+.arrow-container:hover i {
+  animation: zoomInOut 0.5s linear infinite;
+}
+
 
 
 h2 {
